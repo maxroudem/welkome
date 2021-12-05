@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@600,900,400,500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
 *{
@@ -125,6 +125,7 @@
 .container-intro{
     border-top: 4px solid #fff;
     width: 270px;
+    height: 85px;
 }
 .container-intro::first-letter{
     font-size: 36px;
@@ -133,4 +134,72 @@
     position: relative;
     z-index: 11;
 }
+.story{
+    height: 100vh;
+}
+.story-wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 45px;
+}
+.do{
+    font-family: 'Kaushan Script'; 
+    font-size: 30px;
+    font-weight: 400;
+    padding-top: 42px;
+}
+.about{
+    font-size: 36px;
+    font-weight: 900;
+    font-family:'Raleway';
+    text-transform: uppercase;
+}
+.border-story{
+    border-bottom: 4px solid #f38281;
+    width: 170px;
+}
 
+.text-story{
+    font-size: 18px;
+    font-weight: 400;
+    font-family:'Raleway';
+    text-align: center;
+}
+.icons{
+    display: flex;
+    margin: 50px 170px;
+    gap: 30px;
+}
+.icons-wrapper{
+    position: relative;
+}
+.team{
+    width: 370px;
+    height: 338px;
+    background: linear-gradient(rgba(233, 130, 131, 0.9), rgba(237, 215, 137, 0.9));
+    position: absolute;
+    right: 16px;
+    bottom: 16px;
+    text-align: center;
+}
+.team-wrapper{
+    width: 370px;
+    height: 338px;
+    background: rgba(149, 225, 211, 1);
+}
+.text-super{
+    font-size: 24px;
+    font-weight: 500;
+    color: #fff;
+    font-family:'Raleway';
+    display: inline-block;
+    vertical-align: middle;
+    text-transform: uppercase;
+}
+.team:before{
+    content: '';
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
+}
